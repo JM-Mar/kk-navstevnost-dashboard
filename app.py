@@ -15,8 +15,7 @@ import plotly.graph_objs as go
 from statsmodels.tsa.seasonal import STL
 
 # —— KONFIGURÁCIA ——
-csv_path = r"G:\Môj disk\Python\Navstevnost_Analyza\navstevnost.csv"
-# —————————————————
+csv_path = "navstevnost2.csv"
 
 # 1) Načítanie dát
 df_all = pd.read_csv(
